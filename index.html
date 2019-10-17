@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document Object Model JavaScript</title>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body class="back_ground">
+   <div>
+       <h1 id = "hello">Hello World!</h1>
+   </div> 
+   <div>
+       <button class="seemore_butts" id = "seemoreButton">Click Me !</button> 
+   </div>
+   <div class="container" >
+       <div class="row">
+       <div class="col-10 d-flex justify-content-center" >
+              
+       <form class="form-group form_style" action="" name="submit-form" id="change-form">
+           <input type="text" name="Year">
+           <input type="text" name="Lap">
+           <button onClick="dataChange()" type="button">Get Standing</button>
+       </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-9">
+       <!--Insert our Database Tabke-->
+       <table>
+           <thead>
+               <tr>
+                   <th scope="col">Position</th>
+                   <th scope="col">Name</th>
+                   <th scope="col">Nationality</th>
+                   <th scope="col">Sponser</th>
+                   <th scope="col">Points</th>
+                   
+               </tr>
+           </thead>
+           <!-- Table body-->
+           <tbody>
+               <tr>
+                   <td scope="row" id="position0">10</td>
+                   <td class="name_column" id="name0">Name0</td>
+                   <td id="nationality0">Nationality0</td>
+                   <td id="sponser0">Sponser0</td>
+                   <td id="points0">Points0</td>
+               </tr>
+               <tr>
+                    <td scope="row" id="position1">11</td>
+                    <td class="name_column" id="name1">Name1</td>
+                    <td id="nationality1">Nationality1</td>
+                    <td id="sponser1">Sponser1</td>
+                    <td id="points1">Points1</td>
+                </tr>
+                <tr>
+                   <td scope="row" id="position2">12</td>
+                   <td class="name_column" id="name2">Name2</td>
+                   <td id="nationality2">Nationality2</td>
+                   <td id="sponser2">Sponser2</td>
+                   <td id="points2">Points2</td>
+               </tr>
+               <tr>
+                    <td scope="row" id="position3">13</td>
+                    <td class="name_column" id="name3">Name3</td>
+                    <td id="nationality3">Nationality3</td>
+                    <td id="sponser3">Sponser3</td>
+                    <td id="points3">Points3</td>
+                </tr>
+                <tr>
+                   <td scope="row" id="position4">14</td>
+                   <td class="name_column" id="name4">Name4</td>
+                   <td id="nationality4">Nationality4</td>
+                   <td id="sponser4">Sponser4</td>
+                   <td id="points4">Points4</td>
+               </tr>
+               <tr>
+                    <td scope="row" id="position5">15</td>
+                    <td class="name_column" id="name5">Name5</td>
+                    <td id="nationality5">Nationality5</td>
+                    <td id="sponser5">Sponser5</td>
+                    <td id="points5">Points5</td>
+                </tr>
+                <tr>
+                    <td scope="row" id="position6">16</td>
+                    <td class="name_column" id="name6">Name6</td>
+                    <td id="nationality6">Nationality6</td>
+                    <td id="sponser6">Sponser6</td>
+                    <td id="points6">Points6</td>
+                </tr>
+           </tbody>
+       </table>
+    </div>
+       </div>
+       </div>
+   </div>
+   
+</body>
+</html>

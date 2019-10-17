@@ -1,0 +1,73 @@
+.center-text {
+    text-align: center;
+    color: magenta;
+}
+
+.seemore_butts{
+    border-radius: 5px;
+    background-color: lightblue;
+    box-shadow: 2px 2px 15px 2px #000000;
+    border-radius: 15%;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.back_ground{
+    background-image: linear-gradient(#FF9800, #FF6D00);
+    height: 100vh;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+}
+
+table {
+    margin-top: 15px;
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+  }
+
+th {
+text-align: center;
+color: whitesmoke;
+font-size: medium;
+font-weight: bolder;
+}
+
+table {
+    border-spacing: 5px;
+    align-content: center;
+    width: 1200px;
+  }
+.name_column {
+    color: blue;
+}
+button {
+    background-color: tomato;
+    color: thistle;
+    padding: 12px 70px;
+    font-size: large;
+    border-radius: 15px;
+}
+
+/* Joel's Bootstrap decoration */
+
+#Driver-table {
+    padding: 0 50px;
+}
+
+#change-form {
+    margin-top: 10%;
+    padding: 0 50px;
+}
+
+input[type="text"]{
+    margin-right: 20px;
+}
